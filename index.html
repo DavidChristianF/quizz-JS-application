@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-gray-200">
+    <div class="title w-full p-8 bg-white shadow-lg mt-8 mb-2">
+      <h1 class="text-3xl font-extrabold text-indigo-700 leading-tight mb-4">
+        Solve the quiz
+      </h1>
+      <p class="text-gray-600">
+        Try to solve the quiz and do it with the least time posible
+      </p>
+    </div>
+
+    <form id="quiz-form">
+      <ol>
+        <li
+          class="question-item container mx-auto p-8 bg-white rounded-lg shadow-lg"
+        >
+          <div>Inside which HTML element do we put the JavaScript?</div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code><<code></code>javascript></code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code><</code>JS></code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code><<code></code>scripting></code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="true"
+                  />
+                  <code><code><</code>script></code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li
+          class="question-item container mx-auto p-8 bg-white rounded-lg shadow-lg"
+        >
+          <div>
+            How do you write "Hello World" in an alert box?
+          </div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="true"
+                  />
+                  <code>alert("Hello World")</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="true"
+                  />
+                  <code>alertBox("Hello World")</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="false"
+                  />
+                  <code>msgBox("Hello World")</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="false"
+                  />
+                  <code>msg("Hello World")</code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li
+          class="question-item container mx-auto p-8 bg-white rounded-lg shadow-lg"
+        >
+          <div>
+            How do you call a function named "myFunction"?
+          </div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="false"
+                  />
+                  <code>call function myFunction()</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="false"
+                  />
+                  <code>call myFunction()</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="true"
+                  />
+                  <code>myFunction()</code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li
+          class="question-item container mx-auto p-8 bg-white rounded-lg shadow-lg"
+        >
+          <div>
+            How to write an IF statement in JavaScript?
+          </div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-4"
+                    value="true"
+                  />
+                  <code>if(i == 5)</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-4"
+                    value="false"
+                  />
+                  <code>if i = 5</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-4"
+                    value="false"
+                  />
+                  <code>if i = 5 then</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-4"
+                    value="false"
+                  />
+                  <code>if i == 5 then</code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+      </ol>
+      <div class="container mx-auto flex justify-center mt-5">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full text-sm mr-2"
+          id="button"
+          type="submit"
+        >
+          Check
+        </button>
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full text-sm"
+          type="reset"
+          id="resetButton"
+        >
+          Try again!
+        </button>
+      </div>
+    </form>
+    <div class="container flex justify-end">
+      <div id="timer">
+        Time: <span class="font-bold" id="timer-display">0:00</span>
+      </div>
+      <div id="alert">
+        <div class="alert-title"></div>
+      </div>
+    </div>
+  </body>
+</html>
